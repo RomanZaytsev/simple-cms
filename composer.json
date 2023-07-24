@@ -1,0 +1,27 @@
+{
+    "name": "romanzaytsev/yii2-module-cms",
+    "description": "Yii2 Module CMS",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "cms",
+        "config"
+    ],
+    "authors": [
+        {
+            "name": "Roman Zaytsev",
+            "email": "roma.zaytsev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "yiisoft/yii2": "~2.0.10",
+        "kartik-v/yii2-widget-datetimepicker": "*",
+        "vova07/yii2-imperavi-widget": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "romanzaytsev\\cms\\": ""
+        }
+    }
+}
